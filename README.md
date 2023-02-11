@@ -1,7 +1,12 @@
 # webscraping-bot
 A telegram bot for webscraping a torrent site.
 
-## Usage/Examples  
+## Build
+~~~
+docker build --tag webscraping-bot .
+~~~
+
+## docker-compose.yml example  
 ~~~
 version: '3.7'
 services:
