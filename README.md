@@ -15,6 +15,7 @@ services:
       - TR_PASS=#transmissionpass
       - DOWNLOAD_DIR=#pathtodir
       - DONTORRENT_URL=#url
+      - USERS=#usersIDsplitbycommas
     network_mode: 'host'
     restart: unless-stopped 
 ~~~  
